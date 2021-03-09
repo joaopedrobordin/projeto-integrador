@@ -1,0 +1,96 @@
+* {
+    margin:0%;
+    font-family:sans-serif ;
+}
+body {
+background: url(img/fundo-do-site-mosaico-azul.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+div {
+    padding: 1px inset green ;
+
+}
+#slider img {
+    width: 200px;
+    display: inline-block;
+    
+}
+.clear {
+    clear:both;
+
+}
+    .loc{
+        
+        background-color: rebeccapurple;
+        padding: 10px;
+    }
+iframe {
+    display:flex
+}
+
+p {
+    
+    float: left;
+    clear: right;
+}
+.onde {display:inline ; }
+.text {display:inline }
+    
+
+
+.menu ul {
+    list-style: none ;
+    background-color: rgb(7, 13, 63);
+    
+}
+.menu ul li {
+    display: inline;
+
+}
+.menu ul li a{
+    padding: 5px 10px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    background: black
+}
+.menu ul li a:hover{
+    color: rgb(64, 64, 172);
+}
+ 
+.carrossel {
+    color: 5px solid yellow;
+
+}
+.folha{
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+
+    
+}
+img {
+    padding: 10px;
+    border: 1px
+}
+.galeria {
+    display: unset;  
+}
+.nivoSlider  {
+    height: 200px ;
+    width: 200px ;
+}
+
+
+.listfilter {padding:0;margin:0;font-family:sans-serif}
+h1{margin-left:10px}
+
+.listfilter{margin:5px;display:block;clear:both;overflow:hidden}
+.listfilter li{display:inline;float:left;}
+.listfilter li a{padding:10px;margin:5px;color:#fff;background:#666;text-decoration:none;}
+
+.items{display:block;clear:both;margin-top:20px}
+.items div{float:left;margin:10px;width:100px;height:100px}
+.items div img {width:100px; margin:20px ;}
