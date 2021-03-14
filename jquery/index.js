@@ -16,5 +16,6 @@ jQuery.noConflict();
 				jQuery('.items > div').not(selector).hide('slow');
 			});
 		});
+		
 
 

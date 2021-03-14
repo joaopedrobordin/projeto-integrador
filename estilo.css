@@ -30,6 +30,11 @@ iframe {
     display:flex
 }
 
+.uni {padding: 10px; box-shadow:5px solid black; }
+.unipegran  {padding: 10px; box-shadow:5px solid black ;}
+.unipe {padding: 10px; box-shadow:5px solid black ; }
+.unigran {padding: 10px; box-shadow:5px solid black ; }
+
 p {
     
     float: left;
@@ -68,8 +73,12 @@ p {
     background-color: white;
     margin: 10px 10px 10px 10px;
     border-radius: 20px;
-
-    
+}
+.folha-de-comentarios
+{
+    background-color: white;
+    margin: 10px 55% 10px 10px;
+    border-radius: 20px;
 }
 img {
     padding: 10px;
@@ -78,10 +87,11 @@ img {
 .galeria {
     display: unset;  
 }
-.nivoSlider  {
-    height: 200px ;
-    width: 200px ;
-}
+/*.nivoSlider  {}*/
+
+.ajuda {display: flex;}
+.text{margin:2%}
+
 
 
 .listfilter {padding:0;margin:0;font-family:sans-serif}
