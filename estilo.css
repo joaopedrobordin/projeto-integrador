@@ -1,106 +1,69 @@
-* {
-    margin:0%;
-    font-family:sans-serif ;
-}
-body {
-background: url(img/fundo-do-site-mosaico-azul.jpg);
-background-repeat: repeat;
-background-attachment: fixed;
-}
 
-div {
-    padding: 1px inset green ;
 
-}
-#slider img {
-    width: 200px;
-    display: inline-block;
+
+
+
+
+body 
+{background-image: url("img/fundo-mercado.jpg");}
+
+nav {
+    background-color: rgba(189, 31, 26, 0.658);
+    list-style-type:circle;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
     
-}
-.clear {
-    clear:both;
+  }
+  button{
+   transition:1s;
 
-}
-    .loc{
-        
-        background-color: rebeccapurple;
-        padding: 10px;
-    }
-iframe {
-    display:flex
-}
+  }
 
-.uni {padding: 10px; box-shadow:5px solid black; }
-.unipegran  {padding: 10px; box-shadow:5px solid black ;}
-.unipe {padding: 10px; box-shadow:5px solid black ; }
-.unigran {padding: 10px; box-shadow:5px solid black ; }
+  button:hover {
+    border-radius: 100%;
 
-p {
-    
-    float: left;
-    clear: right;
-}
-.onde {display:inline ; }
-.text {display:inline }
-    
-
-
-.menu ul {
-    list-style: none ;
-    background-color: rgb(7, 13, 63);
-    
-}
-.menu ul li {
-    display: inline;
-
-}
-.menu ul li a{
-    padding: 5px 10px;
-    display: inline;
-    text-decoration: none;
-    color: white;
-    background: black
-}
-.menu ul li a:hover{
-    color: rgb(64, 64, 172);
-}
- 
-.carrossel {
-    color: 5px solid yellow;
-
-}
-.folha{
-    background-color: white;
-    margin: 10px 10px 10px 10px;
-    border-radius: 20px;
-}
-.folha-de-comentarios
-{
-    background-color: white;
-    margin: 10px 55% 10px 10px;
-    border-radius: 20px;
-}
-img {
+  }
+  
+nav li {
+    display:block;
+    font-size: 20px;
     padding: 10px;
-    border: 1px
+    border-bottom: green;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+} 
+
+main {
+  background-color: navajowhite;
+padding: 14px;
 }
-.galeria {
-    display: unset;  
+
+#a {
+  float: right;
 }
-/*.nivoSlider  {}*/
+.b {
+float:left;
+}
 
-.ajuda {display: flex;}
-.text{margin:2%}
+input {
+  border-radius: 100px;
+  border-color: orange;
+  padding: 3px;
+  margin: 10;
+}
+.produto{background-color:white;
+   margin:5px;
+    display: inline;
+  float:left;
+  width: 20%;
+
+  }
 
 
+.flex-container{
 
-.listfilter {padding:0;margin:0;font-family:sans-serif}
-h1{margin-left:10px}
-
-.listfilter{margin:5px;display:block;clear:both;overflow:hidden}
-.listfilter li{display:inline;float:left;}
-.listfilter li a{padding:10px;margin:5px;color:#fff;background:#666;text-decoration:none;}
-
-.items{display:block;clear:both;margin-top:20px}
-.items div{float:left;margin:10px;width:100px;height:100px}
-.items div img {width:100px; margin:20px ;}
+  background-color: gray;
+  padding: 10px;
+  display:flexbox;
+}
