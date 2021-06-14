@@ -46,11 +46,17 @@ padding: 14px;
 float:left;
 }
 
+.label {
+  display: inline;
+}
+
 input {
   border-radius: 100px;
   border-color: orange;
   padding: 3px;
   margin: 10;
+  outline: none;
+  display: inline;
 }
 .produto{background-color:white;
    margin:5px;
@@ -64,6 +70,7 @@ input {
 .flex-container{
 
   background-color: gray;
-  padding: 10px;
-  display:flexbox;
+  padding: 40%;
+  display: flex
+
 }
