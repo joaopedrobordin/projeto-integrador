@@ -3,7 +3,7 @@
 $servidor = "localhost"
 $usuario = "root"
 $senha = ""
-$dbname = ""
+$dbname = "bd_mercado"
 
 $conn = mysqli_conect($servidor , $usuario , $senha , $dbname)
 
