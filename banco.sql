@@ -1,4 +1,4 @@
-bd_mercado
+CREATE DATABASE bd_mercado;
 
 CREATE TABLE `tb_produto` ( `nome` VARCHAR(50) NOT NULL ,
             `preco` DECIMAL NOT NULL ,
